@@ -23,7 +23,7 @@ O sistema é dividido em quatro partes principais:
 
 ## 📅 Última Atualização
 
-28/06/2024
+29/11/2024
 
 
 ## 👨‍💻 Autora
