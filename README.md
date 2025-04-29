@@ -1,6 +1,6 @@
 # 📊 Sistema de Extração de Dados da API Construflow para Google Sheets
 
-Este sistema foi desenvolvido em **Google Apps Script** com o objetivo de automatizar a coleta e organização de dados da **API do Construflow**, preenchendo diferentes abas de uma **planilha do Google Sheets**.
+Este sistema foi desenvolvido em Google Apps Script com o objetivo de automatizar a coleta e organização de dados da API do Construflow, preenchendo diferentes abas de uma planilha do Google Sheets.
 
 
 ## 🚀 Funcionamento
