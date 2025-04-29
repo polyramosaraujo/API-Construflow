@@ -2,6 +2,7 @@
 
 Este sistema foi desenvolvido em **Google Apps Script** com o objetivo de automatizar a coleta e organização de dados da **API do Construflow**, preenchendo diferentes abas de uma **planilha do Google Sheets**.
 
+
 ## 🚀 Funcionamento
 
 O sistema é dividido em quatro partes principais:
@@ -19,9 +20,11 @@ O sistema é dividido em quatro partes principais:
    (`getProjects`, `getCompanies`, etc)
 - Cada função coleta dados de um endpoint da API e preenche uma aba específica da planilha.
 
+
 ## 📅 Última Atualização
 
 **28/06/2024**
+
 
 ## 👨‍💻 Autora
 
