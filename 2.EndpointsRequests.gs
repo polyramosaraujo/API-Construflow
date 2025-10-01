@@ -1,7 +1,7 @@
 /**
- * Preenche a respectiva aba da planilha com as informações coletadas do Construflow por meio da API 
- * | Função acionada manualmente, a princípio 
- * | Última atualização: 28/06/2024 
+ * Fills the respective spreadsheet tab with the information collected from Construflow via the API
+ * | Function triggered manually, initially
+ * | Last update: 06/28/2024
  */
 function getProjects(){
   Logger.log('INÍCIO DA FUNÇÃO GET PROJECTS')
@@ -32,9 +32,9 @@ function getProjects(){
 }
 
 /**
- * Preenche a respectiva aba da planilha com as informações coletadas do Construflow por meio da API 
- * | Função acionada manualmente, a princípio 
- * | Última atualização: 28/06/2024 
+ * Fills the respective spreadsheet tab with the information collected from Construflow via the API
+ * | Function triggered manually, initially
+ * | Last update: 06/28/2024
  */
 function getCompanies(){
   Logger.log('INÍCIO DA FUNÇÃO GET COMPANIES')
@@ -62,9 +62,9 @@ function getCompanies(){
 }
 
 /**
- * Preenche a respectiva aba da planilha com as informações coletadas do Construflow por meio da API 
- * | Função acionada manualmente, a princípio 
- * | Última atualização: 28/06/2024 
+ * Fills the respective spreadsheet tab with the information collected from Construflow via the API
+ * | Function triggered manually, initially
+ * | Last update: 06/28/2024
  */
 function getUsers(){
   Logger.log('INÍCIO DA FUNÇÃO GET USERS')
@@ -95,9 +95,9 @@ function getUsers(){
 }
 
 /**
- * Preenche a respectiva aba da planilha com as informações coletadas do Construflow por meio da API 
- * | Função acionada manualmente, a princípio 
- * | Última atualização: 28/06/2024 
+ * Fills the respective spreadsheet tab with the information collected from Construflow via the API
+ * | Function triggered manually, initially
+ * | Last update: 06/28/2024
  */
 function getLocals(){
   Logger.log('INÍCIO DA FUNÇÃO GET LOCALS')
@@ -128,9 +128,9 @@ function getLocals(){
 }
 
 /**
- * Preenche a respectiva aba da planilha com as informações coletadas do Construflow por meio da API 
- * | Função acionada manualmente, a princípio 
- * | Última atualização: 28/06/2024 
+ * Fills the respective spreadsheet tab with the information collected from Construflow via the API
+ * | Function triggered manually, initially
+ * | Last update: 06/28/2024
  */
 function getDisciplines(){
   Logger.log('INÍCIO DA FUNÇÃO GET DISCIPLINES')
@@ -160,9 +160,9 @@ function getDisciplines(){
 }
 
 /**
- * Preenche a respectiva aba da planilha com as informações coletadas do Construflow por meio da API 
- * | Função acionada manualmente, a princípio 
- * | Última atualização: 28/06/2024 
+ * Fills the respective spreadsheet tab with the information collected from Construflow via the API
+ * | Function triggered manually, initially
+ * | Last update: 06/28/2024
  */
 function getPhases(){
   Logger.log('INÍCIO DA FUNÇÃO GET PHASES')
@@ -192,9 +192,9 @@ function getPhases(){
 }
 
 /**
- * Preenche a respectiva aba da planilha com as informações coletadas do Construflow por meio da API 
- * | Função acionada manualmente, a princípio 
- * | Última atualização: 28/06/2024 
+ * Fills the respective spreadsheet tab with the information collected from Construflow via the API
+ * | Function triggered manually, initially
+ * | Last update: 06/28/2024
  */
 function getCategories(){
   Logger.log('INÍCIO DA FUNÇÃO GET CATEGORIES')
@@ -222,9 +222,9 @@ function getCategories(){
 }
 
 /**
- * Preenche a respectiva aba da planilha com as informações coletadas do Construflow por meio da API 
- * | Função acionada manualmente, a princípio 
- * | Última atualização: 28/06/2024 
+ * Fills the respective spreadsheet tab with the information collected from Construflow via the API
+ * | Function triggered manually, initially
+ * | Last update: 06/28/2024
  */
 function getLabels(){
   Logger.log('INÍCIO DA FUNÇÃO GET LABELS')
@@ -255,9 +255,9 @@ function getLabels(){
 }
 
 /**
- * Preenche a respectiva aba da planilha com as informações coletadas do Construflow por meio da API 
- * | Função acionada manualmente, a princípio 
- * | Última atualização: 28/06/2024 
+ * Fills the respective spreadsheet tab with the information collected from Construflow via the API
+ * | Function triggered manually, initially
+ * | Last update: 06/28/2024
  */
 function getIssues(){
   Logger.log('INÍCIO DA FUNÇÃO GET ISSUES')
@@ -302,9 +302,9 @@ function getIssues(){
 }
 
 /**
- * Preenche a respectiva aba da planilha com as informações coletadas do Construflow por meio da API 
- * | Função acionada manualmente, a princípio 
- * | Última atualização: 28/06/2024 
+ * Fills the respective spreadsheet tab with the information collected from Construflow via the API
+ * | Function triggered manually, initially
+ * | Last update: 06/28/2024
  */
 function getIssuesLocals(){
   Logger.log('INÍCIO DA FUNÇÃO GET ISSUES LOCALS')
@@ -332,9 +332,9 @@ function getIssuesLocals(){
 }
 
 /**
- * Preenche a respectiva aba da planilha com as informações coletadas do Construflow por meio da API 
- * | Função acionada manualmente, a princípio 
- * | Última atualização: 28/06/2024 
+ * Fills the respective spreadsheet tab with the information collected from Construflow via the API
+ * | Function triggered manually, initially
+ * | Last update: 06/28/2024
  */
 function getIssuesDisciplines(){
   Logger.log('INÍCIO DA FUNÇÃO GET ISSUES DISCIPLINES')
@@ -365,9 +365,9 @@ function getIssuesDisciplines(){
 }
 
 /**
- * Preenche a respectiva aba da planilha com as informações coletadas do Construflow por meio da API 
- * | Função acionada manualmente, a princípio 
- * | Última atualização: 28/06/2024 
+ * Fills the respective spreadsheet tab with the information collected from Construflow via the API
+ * | Function triggered manually, initially
+ * | Last update: 06/28/2024
  */
 function getIssuesLabels(){
   Logger.log('INÍCIO DA FUNÇÃO GET ISSUES LABELS')
@@ -395,9 +395,9 @@ function getIssuesLabels(){
 }
 
 /**
- * Preenche a respectiva aba da planilha com as informações coletadas do Construflow por meio da API 
- * | Função acionada manualmente, a princípio 
- * | Última atualização: 28/06/2024 
+ * Fills the respective spreadsheet tab with the information collected from Construflow via the API
+ * | Function triggered manually, initially
+ * | Last update: 06/28/2024
  */
 function getHistories(){
   Logger.log('INÍCIO DA FUNÇÃO GET HISTORIES')
@@ -428,9 +428,9 @@ function getHistories(){
 }
 
 /**
- * Preenche a respectiva aba da planilha com as informações coletadas do Construflow por meio da API 
- * | Função acionada manualmente, a princípio 
- * | Última atualização: 28/06/2024 
+ * Fills the respective spreadsheet tab with the information collected from Construflow via the API
+ * | Function triggered manually, initially
+ * | Last update: 06/28/2024
  */
 function getComments(){
   Logger.log('INÍCIO DA FUNÇÃO GET COMMENTS')
@@ -461,9 +461,9 @@ function getComments(){
 }
 
 /**
- * Preenche a respectiva aba da planilha com as informações coletadas do Construflow por meio da API 
- * | Função acionada manualmente, a princípio 
- * | Última atualização: 28/06/2024 
+ * Fills the respective spreadsheet tab with the information collected from Construflow via the API
+ * | Function triggered manually, initially
+ * | Last update: 06/28/2024
  */
 function getAccessLogs(){
   Logger.log('INÍCIO DA FUNÇÃO GET ACCESS LOGS')
@@ -493,9 +493,9 @@ function getAccessLogs(){
 }
 
 /**
- * Preenche a respectiva aba da planilha com as informações coletadas do Construflow por meio da API 
- * | Função acionada manualmente, a princípio 
- * | Última atualização: 28/06/2024 
+ * Fills the respective spreadsheet tab with the information collected from Construflow via the API
+ * | Function triggered manually, initially
+ * | Last update: 06/28/2024
  */
 function getTests(){
   Logger.log('INÍCIO DA FUNÇÃO GET TESTS')
