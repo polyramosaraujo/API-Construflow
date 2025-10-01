@@ -1,31 +1,31 @@
-# 📊 Sistema de Extração de Dados da API Construflow para Google Sheets
+# 📊 Data Extraction System from Construflow API to Google Sheets
 
-Este sistema foi desenvolvido em Google Apps Script com o objetivo de automatizar a coleta e organização de dados da API do Construflow, preenchendo diferentes abas de uma planilha do Google Sheets.
+This system was developed in Google Apps Script with the goal of automating the collection and organization of data from the Construflow API, filling different tabs of a Google Sheets spreadsheet.
 
 
-## 🚀 Funcionamento
+## 🚀 How It Works
 
-O sistema é dividido em quatro partes principais:
+The system is divided into four main parts:
 
-1. **Constantes**
-- Define as configurações principais do sistema, como versão do conector e do template, URL base da API, credenciais codificadas em base64, número máximo de tentativas, tamanho das páginas para requisições paginadas e referências às abas da planilha que serão preenchidas
+1. **Constants**
+- Defines the main system settings, such as connector and template version, base API URL, base64-encoded credentials, maximum number of attempts, page size for paginated requests, and references to the spreadsheet tabs that will be filled
   
-2. **Requisição Geral (`getFromAPI`)**
-- Responsável por fazer requisições GET para a API do Construflow, com suporte à **paginação automática** e **retries** em caso de erro.
+2. **General Request (`getFromAPI`)**
+- Responsible for making GET requests to the Construflow API, with support for **automatic pagination** and **retries** in case of errors.
   
-3. **Função Intermediária (`getData`)**
-- Função que define a versão do template da API e chama `getFromAPI()`.
+3. **Intermediate Function (`getData`)**
+- Function that defines the API template version and calls `getFromAPI()`.
   
-4. **Requisições Específicas por Endpoint**  
+4. **Specific Requests by Endpoint**  
    (`getProjects`, `getCompanies`, etc)
-- Cada função coleta dados de um endpoint da API e preenche uma aba específica da planilha.
+- Each function collects data from an API endpoint and fills a specific tab in the spreadsheet.
 
 
-## 📅 Última Atualização
+## 📅 Last Update
 
 29/11/2024
 
 
-## 👨‍💻 Autora
+## 👨‍💻 Author
 
 Polyana Ramos Araújo
