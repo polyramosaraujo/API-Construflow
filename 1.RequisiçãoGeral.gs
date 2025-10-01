@@ -1,11 +1,11 @@
 /**
- * Pega todos os dados da API do Construflow 
- * | Função acionada quando chamada por outra função 
- * | Última atualização: 28/06/2024 
- * @param {string} relativePath Parâmetro relativePath: End point desejado para a requisição. Default é uma string vazia.
- * @param {number} after Parâmetro after: Número inicial da página do Construflow a qual será consultada. Default é o número 0.
- * @param {string} templateVersion Parâmetro templateVersion: Versão do Construflow a qual será consultada a API. Default é a versão 5.0.0.
- * @param {number} retries Parâmetro retries: Número inicial de tentativas para apresentar no Logger final. Default é o número 0.
+ * Fetches all data from the Construflow API
+ * | Function triggered when called by another function
+ * | Last update: 06/28/2024
+ * @param {string} relativePath Parameter relativePath: Desired endpoint for the request. Default is an empty string.
+ * @param {number} after Parameter after: Initial page number of Construflow to be queried. Default is 0.
+ * @param {string} templateVersion Parameter templateVersion: Construflow version to be queried via the API. Default is version 5.0.0.
+ * @param {number} retries Parameter retries: Initial number of attempts to show in the final Logger. Default is 0.
  */
 function getFromAPI(relativePath = '', after = 0, templateVersion = "5.0.0", retries = 0){
 
@@ -58,10 +58,10 @@ function getFromAPI(relativePath = '', after = 0, templateVersion = "5.0.0", ret
 }
 
 /**
- * Função intermediária que recebe o end point e define os parâmetros para consulta da API do Construflow 
- * | Função acionada quando chamada por outra função 
- * | Última atualização: 28/06/2024 
- * @param {string} content Parâmetro content: End point desejado para a requisição. Default é uma string vazia.
+ * Intermediate function that receives the endpoint and sets the parameters for querying the Construflow API
+ * | Function triggered when called by another function
+ * | Last update: 06/28/2024
+ * @param {string} content Parameter content: Desired endpoint for the request. Default is an empty string.
  */
 function getData(content = ''){
   Logger.log('Início da requisição de dados')
